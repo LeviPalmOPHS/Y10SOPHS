@@ -1,0 +1,7 @@
+#WHILE LOOP challenges01
+
+Total = 0
+while Total <= 50:
+    number = int(input("Enter a number"))
+    Total = Total + number
+    print("The total is", Total)
