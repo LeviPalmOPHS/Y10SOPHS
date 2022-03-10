@@ -1,0 +1,13 @@
+#WHILE LOOP challenges03
+
+number = int(input("Enter a number"))
+firstnumber = number
+total = firstnumber
+yorn = "y"
+while yorn == "y":
+    number2 = int(input("Enter a number"))
+    number = number + number2
+    yorn = str(input("Do you wish to add another number "))
+  
+
+print("The total is",number)
