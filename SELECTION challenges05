@@ -1,0 +1,15 @@
+yorn = str(input("Is it raining >>>")).lower()
+
+if yorn == "yes":
+    windy = str(input("Is it windy >>>"))
+else:
+    print("Enjoy your day")
+
+if windy == "yes":
+    yesorno = str(input("It is too windy for an umbrella"))
+    if yesorno == "yes":
+        print("Enjoy your day")
+    else:
+        print("Take an umbrella")
+else:
+        print("Take an umbrella")    
