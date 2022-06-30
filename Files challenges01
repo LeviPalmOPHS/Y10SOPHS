@@ -1,0 +1,5 @@
+f = open("numbers.txt" ,"w")
+lines = str(input("write 5 numbers"))
+f.write(lines)
+f.close()
+print("time to look")
