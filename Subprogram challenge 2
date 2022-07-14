@@ -1,0 +1,8 @@
+def menu():
+    print("press 1 for domination")
+    print("press 2 for team deathmatch")
+    print("press 3 for headquarters")
+
+    userinput = int(input("enter 1, 2, 3" ))
+
+menu()
