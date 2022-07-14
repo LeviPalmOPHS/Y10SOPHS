@@ -1,0 +1,17 @@
+def careermode():
+    print("career mode chosen")
+
+def onlineseasons():
+    print("online seasons chosen")
+
+def tournamentmode():
+    print("tournament mode chosen")
+
+
+
+def fifa():
+    print("press 1 for career mode")
+    print("press 2 for online seasons")
+    print("press 3 for tournament mode")
+
+fifa()
